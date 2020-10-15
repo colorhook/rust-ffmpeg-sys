@@ -1,6 +1,6 @@
 [package]
 name    = "ffmpeg-sys"
-version = "4.0.2"
+version = "4.0.3"
 build   = "build.rs"
 links   = "ffmpeg"
 
@@ -18,7 +18,7 @@ libc = "0.2"
 num_cpus = "1.0"
 cc = "1.0"
 pkg-config = "0.3"
-bindgen    = "^0.50"
+bindgen    = "^0.54"
 regex      = "0.2"
 
 [features]
